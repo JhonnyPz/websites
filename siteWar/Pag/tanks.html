@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>War</title>
+    <!-- CSS link -->
+    <link rel="stylesheet" href="../style.css">
+    <!-- Jarallx link -->
+    <link rel="stylesheet" href="jarallx/jarallax.css">
+    <!-- Boxicons CDN link -->
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+
+<body>
+
+    <!------Barra Lateral--------->
+
+    <div class="sidebar">
+        <div class="logo_content">
+            <div class="logo">
+                <i class='bx bxl-html5'></i>
+                <div class="logo_name">CodingPag</div>
+            </div>
+            <i class='bx bx-menu' id="btn"></i>
+        </div>
+        <ul class="nav_list">
+            <li>
+                <a href="../index.html">
+                    <i class='bx bx-grid-alt'></i>
+                    <span class="link_name">Dashboard</span>
+                </a>
+                <span class="tooltip">Dashboard</span>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bxs-car'></i>
+                    <span class="link_name">Tanks</span>
+                </a>
+                <span class="tooltip">Tanks</span>
+            </li>
+            <li>
+                <a href="planes.html">
+                    <i class='bx bxs-plane-alt'></i>
+                    <span class="link_name">Planes</span>
+                </a>
+                <span class="tooltip">Planes</span>
+            </li>
+            <li>
+                <a href="Form.html">
+                    <i class='bx bxs-food-menu'></i>
+                    <span class="link_name">Form</span>
+                </a>
+                <span class="tooltip">Form</span>
+            </li>
+            <li>
+                <a href="Database.php">
+                    <i class='bx bxs-data'></i>
+                    <span class="link_name">Data Base</span>
+                </a>
+                <span class="tooltip">Data Base</span>
+            </li>
+        </ul>
+        <div class="profile_content">
+            <div class="profile">
+                <div class="profile_detail">
+                    <img src="img/Perfil.jpg" alt="">
+                    <div class="name_job">
+                        <div class="name">Jhonny Pz</div>
+                        <div class="job">Web Designer</div>
+                    </div>
+                </div>
+                <i class='bx bx-log-out' id="log_out"></i>
+            </div>
+        </div>
+    </div>
+
+    <!------Contenedor Principal--------->
+
+    <div class="home_content">
+
+        <!------Intro Con video--------->
+
+        <section class="showcase jarallax">
+            <header>
+                <h2 class="logo">War Thunder</h2>
+                <div class="toggle"></div>
+            </header>
+
+            <video src="Video/Tanks.mp4" muted loop autoplay class="jarallax-img"></video>
+
+            <div class="overlay"></div>
+
+            <div class="text">
+                <h2>Tanks</h2>
+                <h3>fuerzas de Tierra</h3>
+                <p>Un tanque es un vehículo de combate blindado destinado como arma ofensiva primaria en combate en tierra de primera línea. Los diseños de los tanques son un equilibrio entre una gran potencia de fuego.</p>
+                <a href="https://warthunder.com/es/game/technics/" target="_blank" id="btn">Explore</a>
+            </div>
+
+        </section>
+
+        <!----------Parallax Scrolling-------------->
+
+        <section class="contenido-parallax">
+            <div class="box">
+                <h2 data-jarallax-element="0 -200">Leopard 2A5 - GERMANY</h2>
+                <div class="container">
+                    <div class="imgBx jarallax">
+                        <img src="img/Tanks/Leopard 2A5.jpg" class="jarallax-img">
+                    </div>
+                    <div class="content" data-jarallax-element="-200 0">
+                        <p>La siguiente variante del Leopard 2A4, el Leopard 2A5 se distingue por un blindaje frontal de torreta mejorado en general, más notablemente con los bultos de blindaje adicionales en el frente de la torreta, dando una forma de cuña
+                            en lugar de las formas planas que presentaba la variante 2A4.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contenido-parallax">
+            <div class="box">
+                <h2 data-jarallax-element="0 200">Centauro I 105R - ITALY</h2>
+                <div class="container">
+                    <div class="imgBx jarallax">
+                        <img src="img/Tanks/B1 Centauro.jpg" class="jarallax-img">
+                    </div>
+                    <div class="content" data-jarallax-element="-200 0">
+                        <p>El Centauro I 105 R, al igual que su variante básica B1, prioriza la velocidad y la movilidad a expensas del blindaje y la protección. Intenta rectificar la falta de blindaje mediante la inclinación de las placas de blindaje y
+                            el ROMOR-A ERA. Ipsam.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contenido-parallax">
+            <div class="box">
+                <h2 data-jarallax-element="0 -200">T-80U - USSR</h2>
+                <div class="container">
+                    <div class="imgBx jarallax">
+                        <img src="img/Tanks/T-80u.jpg" class="jarallax-img">
+                    </div>
+                    <div class="content" data-jarallax-element="-200 0">
+                        <p>La protección del blindaje del T-80U es adecuada, especialmente si el proyectil entrante golpea una de las placas CONTACT-5 ERA mientras que los proyectiles más nuevos como el DM53 aún pueden penetrar frontalmente el blindaje del
+                            casco a corta distancia.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contenido-parallax">
+            <div class="box">
+                <h2 data-jarallax-element="0 200">Type 87 - JAPAN</h2>
+                <div class="container">
+                    <div class="imgBx jarallax">
+                        <img src="img/Tanks/Type 87.jpg" class="jarallax-img">
+                    </div>
+                    <div class="content" data-jarallax-element="-200 0">
+                        <p>El cañón autopropulsado Twin de 35 mm tipo 87 es un vehículo antiaéreo autopropulsado japonés de rango VI. El Tipo 87 se desempeña bastante bien en su rango, pudiendo atacar efectivamente a los aviones bastante bien gracias a su
+                            alta velocidad de disparo, su rápida rotación de la torreta y los sistemas de radar.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contenido-parallax">
+            <div class="box">
+                <h2 data-jarallax-element="0 -200">M1A1 Abrams - USA</h2>
+                <div class="container">
+                    <div class="imgBx jarallax">
+                        <img src="img/Tanks/M1A1 Abrams.jpg" class="jarallax-img">
+                    </div>
+                    <div class="content" data-jarallax-element="-200 0">
+                        <p>El M1A1 es esencialmente un IPM1 armado con un cañón M256 de 120 mm, lo que significa que la armadura es casi idéntica a su predecesor del árbol tecnológico. El tanque presenta una armadura compuesta en el mantelete del cañón.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!------Footer--------->
+
+        <div class="wav">
+            <div class="waves">
+                <div class="wave" id="wave1"></div>
+                <div class="wave" id="wave2"></div>
+                <div class="wave" id="wave3"></div>
+                <div class="wave" id="wave4"></div>
+            </div>
+        </div>
+
+        <footer>
+            <div class="contenedor-footer">
+                <div class="content-foo">
+                    <h4>Nombre Juego</h4>
+                    <p>war Thunder</p>
+                </div>
+                <div class="content-foo">
+                    <h4>Nombre Pag</h4>
+                    <p>war.com</p>
+                </div>
+                <div class="content-foo">
+                    <h4>Año</h4>
+                    <p>2020</p>
+                </div>
+            </div>
+            <div>
+                <h2 class="titulo-final">&copy; Jhonny Perez C.</h2>
+            </div>
+        </footer>
+
+    </div>
+
+    <!------Script Js Basic--------->
+
+    <script>
+        let btn = document.querySelector("#btn");
+        let cont = document.querySelector(".home_content");
+        let sidebar = document.querySelector(".sidebar");
+
+        btn.onclick = function() {
+            sidebar.classList.toggle("active")
+        }
+        cont.onclick = function() {
+            sidebar.classList.remove("active")
+        }
+    </script>
+
+    <!------Script Js Jarallx--------->
+    <script src="jarallx/jarallax.js"></script>
+    <script src="jarallx/jarallax-element.js"></script>
+    <script type="text/javascript">
+        jarallax(document.querySelectorAll('.jarallax'), {
+            speed: 0.5
+        });
+    </script>
+
+</body>

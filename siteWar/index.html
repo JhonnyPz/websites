@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>War</title>
+    <!-- CSS link -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Jarallx link -->
+    <link rel="stylesheet" href="Pag/jarallx/jarallax.css">
+    <!-- Boxicons CDN link -->
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+
+<body>
+
+    <!------Barra Lateral--------->
+
+    <div class="sidebar">
+        <div class="logo_content">
+            <div class="logo">
+                <i class='bx bxl-html5'></i>
+                <div class="logo_name">CodingPag</div>
+            </div>
+            <i class='bx bx-menu' id="btn"></i>
+        </div>
+        <ul class="nav_list">
+            <li>
+                <a href="#">
+                    <i class='bx bx-grid-alt'></i>
+                    <span class="link_name">Dashboard</span>
+                </a>
+                <span class="tooltip">Dashboard</span>
+            </li>
+            <li>
+                <a href="Pag/tanks.html">
+                    <i class='bx bxs-car'></i>
+                    <span class="link_name">Tanks</span>
+                </a>
+                <span class="tooltip">Tanks</span>
+            </li>
+            <li>
+                <a href="Pag/planes.html">
+                    <i class='bx bxs-plane-alt'></i>
+                    <span class="link_name">Planes</span>
+                </a>
+                <span class="tooltip">Planes</span>
+            </li>
+            <li>
+                <a href="Pag/Form.html">
+                    <i class='bx bxs-food-menu'></i>
+                    <span class="link_name">Form</span>
+                </a>
+                <span class="tooltip">Form</span>
+            </li>
+            <li>
+                <a href="Pag/Database.php">
+                    <i class='bx bxs-data'></i>
+                    <span class="link_name">Data Base</span>
+                </a>
+                <span class="tooltip">Data Base</span>
+            </li>
+        </ul>
+        <div class="profile_content">
+            <div class="profile">
+                <div class="profile_detail">
+                    <img src="Pag/img/Perfil.jpg" alt="">
+                    <div class="name_job">
+                        <div class="name">Jhonny Pz</div>
+                        <div class="job">Web Designer</div>
+                    </div>
+                </div>
+                <i class='bx bx-log-out' id="log_out"></i>
+            </div>
+        </div>
+    </div>
+
+    <!------Contenedor Principal--------->
+
+    <div class="home_content">
+
+        <!------Intro Con video--------->
+
+        <section class="showcase jarallax">
+            <header>
+                <h2 class="logo">War Thunder</h2>
+                <div class="toggle"></div>
+            </header>
+
+            <video src="Pag/Video/videoplayback.webm" muted loop autoplay class="jarallax-img"></video>
+
+            <div class="overlay"></div>
+
+            <div class="text">
+                <h3>Juego Militar</h3>
+                <p>Más de 2000 aviones, tanques, buques de guerra y otros vehículos de combate altamente detallados elaborados cuidadosamente a partir de documentos históricos y fuentes supervivientes.</p>
+                <a href="https://warthunder.com/es/game/about/" target="_blank" id="btn">Explore</a>
+            </div>
+
+        </section>
+
+        <!------Contenedor segundari index--------->
+
+        <section class="contenido">
+            <div class="sec">
+                <h2>Acerca del juego</h2>
+                <p>War Thunder es el juego militar MMO gratuito más completo y multiplataforma para Windows, Linux, Mac ,PlayStation®4 ,PlayStation®5, Xbox One y Xbox Series X|S dedicado a aviación, vehículos blindados y barcos de la Segunda Guerra Mundial
+                    y la Guerra Fría. Únete ahora y participa en grandes batallas en tierra, en el aire y en el mar, luchando con millones de jugadores de todo el mundo en un entorno en constante evolución.</p>
+                <br>
+                <p>Puedes encontrarte derrotando a tus perseguidores desde una torreta de bombardero, defendiendo a tus compañeros en el suelo de un ataque aéreo con cañones antiaéreos, derribando aviones enemigos con una tormenta de fuego de múltiples lanzacohetes,
+                    o intentando hundir un buque de guerra enemigo con un torpedo desde un bote de ataque rápido.</p>
+            </div>
+        </section>
+
+        <!------Tabla--------->
+
+        <section class="contenido2">
+            <img src="Pag/img/Slider/01.jpg" id="slider">
+            <ul class="navigation">
+                <li onclick="imgSlider('Pag/img/Slider/01.jpg')"><img src="Pag/img/Slider/01.jpg"></li>
+                <li onclick="imgSlider('Pag/img/Slider/02.jpg')"><img src="Pag/img/Slider/02.jpg"></li>
+                <li onclick="imgSlider('Pag/img/Slider/03.jpg')"><img src="Pag/img/Slider/03.jpg"></li>
+                <li onclick="imgSlider('Pag/img/Slider/04.jpg')"><img src="Pag/img/Slider/04.jpg"></li>
+                <li onclick="imgSlider('Pag/img/Slider/05.jpg')"><img src="Pag/img/Slider/05.jpg"></li>
+                <li onclick="imgSlider('Pag/img/Slider/06.jpg')"><img src="Pag/img/Slider/06.jpg"></li>
+
+            </ul>
+            <h2>screenshot in game</h2>
+        </section>
+
+        <!------Footer--------->
+
+        <div class="wav">
+            <div class="waves">
+                <div class="wave" id="wave1"></div>
+                <div class="wave" id="wave2"></div>
+                <div class="wave" id="wave3"></div>
+                <div class="wave" id="wave4"></div>
+            </div>
+        </div>
+
+        <footer>
+            <div class="contenedor-footer">
+                <div class="content-foo">
+                    <h4>Nombre Juego</h4>
+                    <p>war Thunder</p>
+                </div>
+                <div class="content-foo">
+                    <h4>Nombre Pag</h4>
+                    <p>war.com</p>
+                </div>
+                <div class="content-foo">
+                    <h4>Año</h4>
+                    <p>2020</p>
+                </div>
+            </div>
+            <div>
+                <h2 class="titulo-final">&copy; Jhonny Perez C.</h2>
+            </div>
+        </footer>
+
+    </div>
+
+    <!------Script Js Basic--------->
+
+    <script type="text/javascript">
+        let btn = document.querySelector("#btn");
+        let cont = document.querySelector(".home_content");
+        let sidebar = document.querySelector(".sidebar");
+
+        btn.onclick = function() {
+            sidebar.classList.toggle("active")
+        }
+        cont.onclick = function() {
+            sidebar.classList.remove("active")
+        }
+
+        function imgSlider(anything) {
+            document.getElementById("slider").src = anything;
+        }
+    </script>
+
+    <!------Script Js Jarallx--------->
+    <script src="Pag/jarallx/jarallax.js"></script>
+    <script src="Pag/jarallx/jarallax-element.js"></script>
+    <script type="text/javascript">
+        jarallax(document.querySelectorAll('.jarallax'), {
+            speed: 0.5
+        });
+    </script>
+
+</body>
