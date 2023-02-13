@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/workspaces/websites/MyWebApp/MyWebApp.csproj": {}
+    "/workspaces/websites/WebAPI.NET/WebAPI.NET.csproj": {}
   },
   "projects": {
-    "/workspaces/websites/MyWebApp/MyWebApp.csproj": {
+    "/workspaces/websites/WebAPI.NET/WebAPI.NET.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/workspaces/websites/MyWebApp/MyWebApp.csproj",
-        "projectName": "MyWebApp",
-        "projectPath": "/workspaces/websites/MyWebApp/MyWebApp.csproj",
+        "projectUniqueName": "/workspaces/websites/WebAPI.NET/WebAPI.NET.csproj",
+        "projectName": "WebAPI.NET",
+        "projectPath": "/workspaces/websites/WebAPI.NET/WebAPI.NET.csproj",
         "packagesPath": "/home/codespace/.nuget/packages/",
-        "outputPath": "/workspaces/websites/MyWebApp/obj/",
+        "outputPath": "/workspaces/websites/WebAPI.NET/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/codespace/.nuget/NuGet/NuGet.Config"
@@ -37,6 +37,16 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
