@@ -3,3 +3,10 @@ ASP-NET-Core/WebApp/obj/
 
 ASP-NET-Core/WebApi/bin/
 ASP-NET-Core/WebApi/obj/
+
+ASP-NET-Core/WebMinimalApi/bin/
+ASP-NET-Core/WebMinimalApi/obj/
+
+ASP-NET-Core/BlazorApp/bin/
+ASP-NET-Core/BlazorApp/obj/
+
