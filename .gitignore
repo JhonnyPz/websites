@@ -1,12 +1,28 @@
-ASP-NET-Core/WebApp/bin/
-ASP-NET-Core/WebApp/obj/
+## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
-ASP-NET-Core/WebApi/bin/
-ASP-NET-Core/WebApi/obj/
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
 
-ASP-NET-Core/WebMinimalApi/bin/
-ASP-NET-Core/WebMinimalApi/obj/
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
 
-ASP-NET-Core/BlazorApp/bin/
-ASP-NET-Core/BlazorApp/obj/
-
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
