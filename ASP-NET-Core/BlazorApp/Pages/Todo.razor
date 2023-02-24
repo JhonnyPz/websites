@@ -1,0 +1,16 @@
+﻿@page "/todo"
+
+<h3>Todo</h3>
+
+<ul>
+    @foreach (var item in todos)
+    {
+        <li>@item.Title</li>
+    }
+</ul>
+
+<input placeholder="Something todo" />
+
+@code {
+    private List<TodoItem> todos = new();
+}
